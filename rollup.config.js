@@ -6,6 +6,6 @@ export default {
     dir: 'dist',
     format: 'cjs',
   },
-  external: ["express", "vite", "node-fetch", "fs", "path", "picocolors"],
+  external: ["picocolors"],
   plugins: [typescript({ module: 'ESNext' })],
 };
