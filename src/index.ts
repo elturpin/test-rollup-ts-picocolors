@@ -4,7 +4,9 @@ import fs from "fs";
 import http from "http";
 import https from "https";
 import path from "path";
-import pc from "picocolors";
+
+// Comment this last import and it will build !
+import pc from "picocolors"; 
 
 type Foo = {
   a: string;
